@@ -1,0 +1,26 @@
+tawakkal_allah/
+├─ android/
+├─ ios/
+├─ web/
+├─ lib/
+│  ├─ main.dart
+│  ├─ screens/
+│  │  ├─ splash_screen.dart
+│  │  ├─ home_screen.dart
+│  │  ├─ quran/quran_player.dart
+│  │  ├─ hadith/hadith_list.dart
+│  │  ├─ seerah/seerah_list.dart
+│  │  ├─ baby/baby_videos.dart
+│  ├─ services/
+│  │  ├─ audio_service.dart
+│  │  ├─ download_service.dart
+│  │  ├─ auth_service.dart
+│  ├─ models/
+│  ├─ utils/
+│  └─ widgets/
+├─ assets/
+│  ├─ icons/
+│  ├─ images/
+│  └─ audio_metadata.json
+├─ pubspec.yaml
+└─ README.md
