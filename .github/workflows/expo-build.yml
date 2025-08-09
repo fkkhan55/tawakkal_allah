@@ -1,3 +1,0 @@
-npx create-expo-app tawakkal-allah
-cd tawakkal-allah
-expo install expo-av expo-location react-native-paper react-navigation react-native-gesture-handler react-native-reanimated react-native-safe-area-context react-native-screens react-native-localize i18next react-i18next
