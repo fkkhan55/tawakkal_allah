@@ -29,7 +29,7 @@ jobs:
           sdkmanager "platforms;android-33" "build-tools;33.0.0"
 
       - name: Make gradlew executable
-        run: chmod +x gradlew --gradle wrapper
+        run: gradle wrapper chmod +x gradlew
 
       - name: Fetch dependencies
         run: ./gradlew dependencies --stacktrace
