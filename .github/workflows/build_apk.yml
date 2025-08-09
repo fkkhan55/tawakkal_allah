@@ -22,6 +22,8 @@ jobs:
 
     - name: Build APK
       run: ./gradlew assembleDebug
+      - name: Download dependencies
+  run: ./gradlew dependencies
 
     - name: Upload APK
       uses: actions/upload-artifact@v3
