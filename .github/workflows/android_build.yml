@@ -38,3 +38,4 @@ jobs:
         with:
           name: TawakkalAllah-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+        gradle: wrapper
